@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+<h1>Welcome to my website</h1>
+<p>Advanced HTML</p>
+</header>
+<body>
+ <div class="lists">
+     <h2>ordered lists</h2>
+     <ol type="i">
+     <li>January</li>
+     <li>February</li>
+     <li>March</li>
+     <li>April</li>
+     <li>May</li>
+     <li>June</li>
+    </ol>
+    <h2>unordered lists</h2>
+        <ul type= "circle">
+        <li>Banana</li>
+        <li>Apples</li>
+        <li>Grapes</li>
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Pineapple</li>
+    </ul>
+    
+    <h2>definition lists</h2>
+    <dl>
+        <dt>Banana</dt>
+        <dd>Most consumed fruit in the world.</dd>
+        
+        <dt>Yubari King Melon</dt>
+        <dd>One of the most expensive fruits, selling for over $45,000 per pair.</dd>
+        
+        <dt>Jackfruit</dt>
+        <dd>World's largest fruit, weighing up to 100 lbs (45 kg).</dd>
+        
+        <dt>Pomegranate</dt>
+        <dd>Contains 600+ seeds, making it the fruit with the most seeds.</dd>
+      </dl>
+ </div>   
+ <div>
+    <h2>Information Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Number </th>
+                <th>Email</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nthabeleng</td>
+                <td>15 Allison Avenue</td>
+                <td>+27768989541</td>
+                <td>Nthabeleng@gmail.com</td>
+            </tr>
+            
+        </tbody>
+    </table>
+ </div>
+ <div>
+    <h2>Registration form</h2>
+    <form action="" method="">
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" placeholder="Enter your first name" required><br><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" placeholder="Enter your last name" required><br><br>
+        
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Enter your email" required><br><br>
+        
+        <label for="country">Country</label><br>
+        <select id="country" required>
+            <option value="">Select a country</option>
+            <option value="south_africa">South Africa</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="kenya">Kenya</option>
+            <option value="ghana">Ghana</option>
+            <option value="ethiopia">Ethiopia</option>
+            <option value="tanzania">Tanzania</option>
+            <option value="uganda">Uganda</option>
+            <option value="morocco">Morocco</option>
+            <option value="egypt">Egypt</option>
+            <option value="zimbabwe">Zimbabwe</option>
+        </select><br><br>
+        
+        <label for="description">About Yourself</label><br>
+        <textarea id="description" rows="4" cols="50" placeholder="Tell us about yourself"></textarea><br><br>
+        
+        <label for="password">Password</label><br>
+        <input type="password" id="password" placeholder="Enter your password" required><br><br>
+        
+        <label for="confirm_password">Confirm Password</label><br>
+        <input type="password" id="confirm_password" placeholder="Confirm your password" required><br><br>
+        
+        <input type="submit" value="Submit">
+        
+    </form>
+ </div>
+ <div>
+        <h2>Multimedia</h2>
+        <video width="320" height="240" controls>
+            <source src="3214097-uhd_3840_2160_25fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <audio controls>
+            <source src="Biri Marung (feat. Sje Konka, Focalistic, Dj Maphorisa, Scotts Maphuma & CowBoii) Music Video.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <img src="pexels-janetrangdoan-1132047.jpg" alt="Sample Image" width="300" height="200">
+
+ </div>
+ 
+
+
+</body>
+</html>
